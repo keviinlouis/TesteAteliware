@@ -18,7 +18,7 @@ class CreateRepositoriesTable extends Migration
             $table->string('full_name');
             $table->string('name');
             $table->string('owner_name');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->string('avatar_url');
             $table->string('language')->nullable();
             $table->unsignedInteger('stars');
