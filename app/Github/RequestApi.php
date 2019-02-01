@@ -14,7 +14,7 @@ use GuzzleHttp\Client;
 class RequestApi
 {
     const BASE_URL = 'https://api.github.com/search/repositories';
-    const SORT = 'stargazers_count';
+    const SORT = 'stars';
     const ORDER = 'desc';
 
     private $client;

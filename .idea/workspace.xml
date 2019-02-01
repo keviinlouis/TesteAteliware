@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b18eb86-db02-4c72-a1f9-3bd0d901c530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/HomeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/GitHubApiTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="7b18eb86-db02-4c72-a1f9-3bd0d901c530" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,43 +44,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/HomeTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-              <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/GitHubApiTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#30#56#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Github/RequestApi.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
               <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-357">
+              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+              <folding>
+                <element signature="e#40#66#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,6 +243,19 @@
             <path>
               <item name="ateliware" type="b2602c69:ProjectViewProjectNode" />
               <item name="ateliware" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ateliware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ateliware" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ateliware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ateliware" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,6 +263,12 @@
               <item name="ateliware" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ateliware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ateliware" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Unit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,6 +319,10 @@
       <TestRunner class="Tests\Feature\HomeTest" file="$PROJECT_DIR$/tests/Feature/HomeTest.php" method="testCanSearchRepositories" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="HomeTest.testCanSeeRepositoryDetails" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\HomeTest" file="$PROJECT_DIR$/tests/Feature/HomeTest.php" method="testCanSeeRepositoryDetails" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -331,6 +330,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="PHPUnit.HomeTest.testCanSearchRepositories" />
+        <item itemvalue="PHPUnit.HomeTest.testCanSeeRepositoryDetails" />
         <item itemvalue="PHPUnit.GitHubApiTest" />
         <item itemvalue="PHPUnit.HomeTest.testCanSearchForRepositories" />
       </list>
@@ -347,47 +347,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548975645331</updated>
-      <workItem from="1548975647332" duration="8638000" />
+      <workItem from="1548975647332" duration="9275000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeTest_testCanSearchForRepositories - 2019.01.31 at 23h 20m 20s.xml">
-      <configuration name="HomeTest.testCanSearchForRepositories" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 28m 13s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GitHubApiTest - 2019.01.31 at 23h 23m 44s.xml">
-      <configuration name="GitHubApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 28m 23s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GitHubApiTest - 2019.01.31 at 23h 24m 07s.xml">
-      <configuration name="GitHubApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 29m 44s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GitHubApiTest - 2019.01.31 at 23h 24m 29s.xml">
-      <configuration name="GitHubApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 30m 24s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="GitHubApiTest - 2019.01.31 at 23h 24m 33s.xml">
-      <configuration name="GitHubApiTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="HomeTest_testCanSeeRepositoryDetails - 2019.01.31 at 23h 32m 04s.xml">
+      <configuration name="HomeTest.testCanSeeRepositoryDetails" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="HomeTest_testCanSeeRepositoryDetails - 2019.01.31 at 23h 32m 12s.xml">
+      <configuration name="HomeTest.testCanSeeRepositoryDetails" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="HomeTest_testCanSeeRepositoryDetails - 2019.01.31 at 23h 33m 12s.xml">
+      <configuration name="HomeTest.testCanSeeRepositoryDetails" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="HomeTest_testCanSeeRepositoryDetails - 2019.01.31 at 23h 33m 43s.xml">
+      <configuration name="HomeTest.testCanSeeRepositoryDetails" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 33m 51s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="HomeTest_testCanSearchRepositories - 2019.01.31 at 23h 34m 30s.xml">
+      <configuration name="HomeTest.testCanSearchRepositories" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8638000" />
+    <option name="totallyTimeSpent" value="9275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
-          <folding>
-            <element signature="e#40#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -564,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Github/RequestApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -588,6 +585,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/HomeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#116#135#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -595,12 +603,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/HomeTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Github/RequestApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="163">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
           <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="e#40#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
