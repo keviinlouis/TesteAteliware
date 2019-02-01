@@ -25,3 +25,9 @@ Rode o seguinte comando para gerar as tabelas<br>
 ``php artisan migrate``
 
 Pronto! Agora é só rodar o comando ``php artisan serve`` e o projeto já estará funcionando.
+
+
+### Testes 
+
+Para rodar os testes rode o comando ``./vendor/bin/phpunit`` no root da pasta<br>
+Para rodar este comando, é necessário ter o composer instalado
